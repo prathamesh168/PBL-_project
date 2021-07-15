@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-image: url(congruent_pentagon.png);
+    }
+    .photo{
+        background-image: url(blogpic.png);
+        background-size: contain;
+        padding: 10em;
+        background-position: center top;
+        background-repeat: no-repeat;
+        margin-bottom: 40px;
+    }
+    
+    .Covidthoughts {
+       margin: 35px auto;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      background-color: #fa8c8c;
+      color: black;
+      /*padding: 10px;*/
+      text-align: center;
+      font-family:sans-serif;
+    }
+     .Covidthoughts::before{
+        content: '';
+        background: red;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }
+    .Covidthoughts::after{
+        content: '';
+        background: red;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+        
+     }
+    .positive {
+          margin: 35px auto;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        letter-spacing: 1.5px;
+      /*background-color: #73d9cc;*/
+      background-color: #74e8d9;
+      color: black;
+     /* padding: 10px;*/
+      text-align: center;
+      font-family: sans-serif;
+      line-height: 1.2;
+   }
+    .positive::before{
+        content: '';
+        /*background: #039191;*/
+        background: darkcyan;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }
+    .positive::after{
+        content: '';
+        /*background: #039191;*/
+        background: darkcyan;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+        
+     }
+    
+    .diet{  
+        margin: 35px auto;
+      font-size: 1.3rem;  
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      background-color: lightgreen;
+      color: black;
+     /* padding: 10px;*/
+      text-align: center;
+      font-family:sans-serif 
+    }
+    .diet::before{
+        content: '';
+        background: green;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }
+    .diet::after{
+        content: '';
+        background: green;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }
+    .laugh{
+         margin: 35px auto;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+         /*background-color:thistle;*/
+         background-color: #ffa8ff;
+         color: black;
+        /* padding: 10px;*/
+         text-align: center;
+         font-family:sans-serif;
+    }
+     .laugh::before{
+        content: '';
+        background: magenta;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }
+    .laugh::after{
+        content: '';
+        background: magenta;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }   
+     .meditation {
+       margin: 35px auto;
+      background-color: #ccdbff;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: black;
+      /*padding: 10px;*/      
+      text-align: center;
+      font-family:sans-serif;
+    }
+    .meditation::before{
+        content: '';
+        background: darkblue;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }
+    .meditation::after{
+        content: '';
+        background: darkblue;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }   
+    .health{
+       margin: 35px auto;
+      background-color: #fffe6b;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: black;
+     /* padding: 10px;*/
+      text-align: center;
+      font-family:sans-serif;
+    } 
+    .health::before{
+        content: '';
+        background: #e0de00;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }
+    .health::after{
+        content: '';
+        background: #e0de00;
+        display: block;
+        left: 0px;
+        height: 3px;
+        width: 1500px;
+    }     
+    p{
+      background-color: white;
+      width: 300px;
+      padding: 50px;
+      margin: auto;
+      font-size: 50;
+      font-display:block
+      font-family: serif;
+  }
+  #one{
+     height: 300px;
+     font-size: 1.2rem;
+     /*margin-bottom: 3px;*/
+     border: 2px solid darkcyan;
+     background-color: #cafcfc;
+     border-radius: 25px;
+     box-shadow: 5px 10px 18px darkcyan;
+     line-height: 1.2;
+  }
+  #two{
+     height: 300px;
+     font-size: 1.2rem;
+     /*margin-bottom: 3px;*/
+     border: 2px solid red;
+     background-color: #ffdbdb;
+     border-radius: 25px;
+     box-shadow: 5px 10px 18px darkred;
+     line-height: 1.2;
+  }
+  #three{
+     height: auto;
+     font-size: 1.2rem;
+     /*margin-bottom: 3px;*/
+     border: 2px solid green;
+     background-color: #bdffc3;
+     border-radius: 25px;
+     box-shadow: 5px 10px 18px darkgreen;
+     line-height: 1.2;
+  }
+   #four{
+     height: auto;
+     font-size: 1.2rem;
+     /*margin-bottom: 3px;*/
+     border: 2px solid violet;
+     background-color: #ffccff;
+     border-radius: 25px;
+     box-shadow: 5px 10px 18px darkviolet;
+     line-height: 1.2;
+  }
+  #five{
+     height: auto;
+     font-size: 1.2rem;
+     /*margin-bottom: 3px;*/
+     border: 2px solid blue;
+     background-color: #e0e9ff;
+     border-radius: 25px;
+     box-shadow: 5px 10px 18px darkblue;
+     line-height: 1.2;
+  }
+    #six{
+     height: auto;
+     font-size: 1.2rem;
+     /*margin-bottom: 3px;*/
+     border: 2px solid yellow;
+     background-color: #fffead;
+     border-radius: 25px;
+     box-shadow: 5px 10px 18px #f0ee00;
+     line-height: 1.2;
+  }
+   
+</style>
+</head>
+<body>
+    
+    <h1 style='text-align:center;font-family: monospaced; color: #008080;text-shadow: 0px 0px 5px #00FFFF;font-size: 40px;'>"Physical fitness is the first requisite of happiness."– Joseph Pilates</h1>
+    <div class="photo">
+
+    </div>
+    
+
+            <h2 class="positive">Be positive</h2>
+            <p id="one" >The COVID-19 pandemic is challenging us in ways we could never have imagined, from unprecedented amounts of family time to homeschooling to working remotely—or not working at all. These sudden, rapid changes in the way we live, coupled with uncertainty, can feel overwhelming. <br>While we may know that it’s helpful for everyone to stay positive, it’s sometimes easier said than done. Here are some suggestions for uplifting your outlook:</p>
+
+            <h2 class="Covidthoughts">Regular Excercise</h2>
+            <p id="two">Take up a relaxation practice. When stressors throw >your nervous system out of balance, relaxation techniques such as deep breathing, meditation, and yoga can bring you back into a state of equilibrium. <br>Regular practice delivers the greatest benefits, so see if you can set aside even a little time every day.</p>
+
+            <h2 class="diet">Proper health and nutritious diet</h2>
+            <p id="three">While no foods or dietary supplements can prevent or cure COVID-19 infection, healthy diets are important for supporting immune systems. Good nutrition can also reduce the likelihood of developing other health problems, including obesity, heart disease, diabetes and some types of cancer<br>Reduce foods such as red and fatty meats, butter and full-fat dairy products, palm oil, coconut oil, solid shortening and lard. Avoid trans fats as much as possible. Read nutrition labels to ensure that partially hydrogenated oils are not listed in the ingredients..</p>
+
+           <h2 class="laugh"> Laughter is best medicine</h2>
+           <p id="four">Smile and laugh out loud several times a day. It keeps you grounded, and helps you cope with situations that would otherwise make you crazy. Read the comics, watch a sitcom, or tell jokes to bring out those happy feelings.<br>It’s true: laughter is strong medicine. It draws people together in ways that trigger healthy physical and emotional changes in the body. Laughter strengthens your immune system, boosts mood, diminishes pain, and protects you from the damaging effects of stress. Nothing works faster or more dependably to bring your mind and body back into balance than a good laugh. Humor lightens your burdens, inspires hope, connects you to others, and keeps you grounded, focused, and alert. It also helps you release anger and forgive sooner.</p>
+    
+           <h2 class='meditation'>Meditate and stay happy</h2>
+           <p id="five">Meditation can give you a sense of calm, peace and balance that can benefit both your emotional well-being and your overall health. And these benefits don't end when your meditation session ends. Meditation can help carry you more calmly through your day and may help you manage symptoms of certain medical conditions.</p>
+           <h2 class='health'>healthy life</h2>
+           <p id="six">Good health is not just the absence of disease or illness, it is a state of complete physical, mental and social well-being. This means eating a balanced diet, getting regular exercise, avoiding tobacco and drugs and getting plenty of rest. ... Any excess will be stored as fat if you eat more than you burn off</p>
+</body>
+</html>

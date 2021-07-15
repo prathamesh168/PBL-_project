@@ -14,6 +14,10 @@ def Home_Page(request):
     return render(request, 'covid.html', context)
 
 
+def blogpage(request):
+    return render(request, 'blog.html')
+
+
 def Adding_Hospital_info(request):
     alpha = Form1()
 

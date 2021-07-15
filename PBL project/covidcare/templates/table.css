@@ -1,0 +1,213 @@
+@import "compass/css3";
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align:center;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color:white;
+    font-size:12px;
+    background:#333 url(/images/classy_fabric.png);
+}
+
+.site-logo a{
+    align-content: space-evenly;
+    font-family: cursive;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #fff;
+    display: block;
+    text-align: justify-all;
+    text-decoration: none;
+    padding: 1px 1.5rem 1px;
+    background-size:contai
+
+}
+h2{
+     font-size:20px;
+     text-shadow:0 1px 0 black;
+     text-align:center;
+     padding:15px 0;
+     border-bottom:1px solid rgba(0,0,0,1);
+     position:relative;
+}
+h2:after {
+    content:"";
+  display:block;
+  width:250px;
+  height:100px;
+  position:absolute;
+  top:0;
+  left:-30px;
+  pointer-events:none;
+  transform:rotate(70deg);
+  background:linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
+  
+}
+
+
+.form-body{
+  /*  background-color: #b3ffff;*/
+     /*background-color: black;
+     background: radial-gradient(rgba(179,225,225,0.5), rgba(225 ,225 , 225,0.5),rgba( 0,0,0,0.3));*/
+    /* background-color: #d9d9d9;*/
+    /* background-color: #918f94;
+     height: 600px;*/
+      background:#111; 
+      width:500px;
+      height:1000px;
+      margin:30px auto;
+      border-radius:0.4em;
+      border:1px solid #191919;
+      overflow:hidden;
+      position:relative;
+      box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+      margin-left: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+   
+}
+.form-body:after{
+  content:"";
+  display:block;
+  position:absolute;
+  height:1px;
+  width:100px;
+  left:20%;
+  background:linear-gradient(left, #111, #444, #b6b6b8, #444, #111);
+  top:0;
+}
+.form-body:before{
+  content:"";
+  display:block;
+  position:absolute;
+  width:14px;
+  height:5px;
+  border-radius:50%;
+  left:40%;
+  top:-7px;
+  box-shadow: 0 0 6px 4px #fff;
+}
+
+.input{
+    min-width: 210px;
+    font-size: 15px;
+    color: white;
+    font-weight:700;
+    font-family:cursive;
+    margin:15px;
+    background-color: black;    
+}
+.box-item{
+    align-content: center;
+    padding: 5px;
+    margin-left: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0px;
+    
+}
+label {
+    color:#666;
+    display:block;
+    padding-bottom:9px;
+}
+
+label[for=remember]{
+    color:white;
+  display:inline-block;
+  padding-bottom:0;
+  padding-top:5px;
+}
+.entry{
+    
+    border:1px solid rgba(0,0,0,0.4);
+    text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+    box-shadow:
+     inset 0 1px 0 rgba(255,255,255,0.3),
+     inset 0 10px 10px rgba(255,255,255,0.1);
+    border-radius:0.3em;
+    background:#0184ff;
+    color:white;
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    margin: 30px;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:15px;
+}
+
+
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+   
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.table {
+      color: #0e8c7b;
+}
+
+table {
+    background-color: transparent;
+}
+table {
+    display: table;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-indent: initial;
+}
+thead {
+    display: table-header-group;
+}
+thead {
+    
+    vertical-align: middle;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+}
+tbody {
+   
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    /*background-color: #defffc;*/
+      background-color: #e8fffd;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    font-weight: bolder;
+}
+td {
+    display: table-cell;
+    
+}
