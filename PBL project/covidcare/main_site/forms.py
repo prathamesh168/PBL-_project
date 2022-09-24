@@ -9,7 +9,7 @@ class Form(ModelForm):
     class Meta:
         model = HospitalData
         fields = ["Hospital_CityName","Hospital_Pincode","Hospital_ICUBeds","Hospital_ContactNo"]
-
+#hi iam prathamesh
 
 class CreateUserForm(UserCreationForm):
     class Meta:
